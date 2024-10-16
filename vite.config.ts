@@ -7,7 +7,7 @@ const reactPlugin = react();
 export default defineConfig({
   plugins: [reactPlugin],
   worker: {
-    plugins: [reactPlugin],
+    plugins: () => [reactPlugin],
     format: 'es',
   },
 });
