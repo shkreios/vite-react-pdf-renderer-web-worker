@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@react-pdf/renderer": "3.4.5",
+    "@react-pdf/renderer": "3.2.1",
     "comlink": "4.4.1",
     "file-saver": "2.0.5",
     "react": "18.3.1",
